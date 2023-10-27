@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./5004fd9d24713f4e42f3a19c75c9ec42.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-seri;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  height: 550px;
+  width: 400px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.inside-container {
+  height: 400px;
+  padding: 60px 60px;
+}
+
+.sign-in {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#email {
+  /* background-color: white; */
+  background-color: #333;
+  width: 250px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  line-height: 50px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+
+#password {
+  background-color: #333;
+  width: 250px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  line-height: 50px;
+  padding: 10px 10px;
+}
+
+.input-fields {
+  margin-bottom: 50px;
+}
+
+.sign-in-btn {
+  height: 50px;
+  width: 250px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+.below-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.remember-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.remember-me-btn {
+  height: 12px;
+  width: 12px;
+  background-color: #767272;
+  border: none;
+  border-radius: 2px;
+}
+
+.remember-me {
+  color: #ada5a5;
+  font-size: 12px;
+}
+
+.need-help {
+  color: #ada5a5;
+  font-size: 12px;
+}
