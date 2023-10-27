@@ -4,8 +4,6 @@ let emailInput = document.getElementById("email");
 let passwordInput = document.getElementById("password");
 let btn = document.querySelector(".sign-in-btn");
 
-// btn.onclick = function () {};
-
 btn.addEventListener("click", function (event) {
   let email = "saranshkoirala12@gmail.com";
   let password = "saransh";
