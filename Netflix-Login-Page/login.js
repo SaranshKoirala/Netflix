@@ -6,14 +6,12 @@ let btn = document.querySelector(".sign-in-btn");
 
 // btn.onclick = function () {};
 
-document.addEventListener("keydown", function (event) {
+btn.addEventListener("click", function (event) {
   let email = "saranshkoirala12@gmail.com";
   let password = "saransh";
-  if (event.key === "Enter") {
-    if (email == emailInput.value && password == passwordInput.value) {
-      location.href = "/home-page/home.html";
-    } else {
-      alert("Invalid username or password");
-    }
+  if (email == emailInput.value && password == passwordInput.value) {
+    location.href = "/home-page/home.html";
+  } else {
+    alert("Invalid username or password");
   }
 });
